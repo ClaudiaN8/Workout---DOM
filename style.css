@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background-color: brown;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.introduction, .question-time, .age-container, .form-info{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+
+.question-time{
+    padding-bottom: 1.5rem;
+}
+
+#name, #bday, #age, #place-select, #userName, option{
+    width: 15rem;
+    height: 1rem;
+    padding: 10px 15px;
+    border:#fff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#place-select option{
+    color: brown;
+}
+
+.btn{
+    background-color: #fff;
+    color: brown;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    border-radius: 5px;
+    border:#fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 500px;
+}
+
+.message{
+    width: 17rem;
+    text-align: justify;
+}
+
+.digit {
+    display: inline-block;
+    width: 1ch;
+    text-align: center;
+  }

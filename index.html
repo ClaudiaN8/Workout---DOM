@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <script defer src="./main.js"></script>
+        <title>Workout</title>
+    </head>
+    <body>
+        <div class="introduction">
+            <h3>Enter your name:</h3>
+            <div>
+                <input type="text" id="name" placeholder="your name" required />
+            </div>
+            <button class="btn btn-name" type="submit">Submit</button>
+            <h4 class="greeting"></h4>
+        </div>
+
+        <div class="question-time">
+            <h3>What time is it?</h3>
+            <h3 class="time-display"></h3>
+        </div>
+
+        <div class="age-container">
+            <h3>Enter your birthday:</h3>
+            <input class="btn" type="date" id="bday" name="bday" required />
+            <button class="btn btn-age" type="submit">Check your age</button>
+            <h4 class="userAge"></h4>
+        </div>
+
+        <div class="form-info">
+            <form id="form-container" action="">
+                <h3>Let us know you</h3>
+                <h4>Enter your name:</h4>
+                <input
+                    type="text"
+                    id="userName"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                />
+                <h4>How old are you?</h4>
+                <input
+                    type="number"
+                    id="age"
+                    value="10"
+                    min="0"
+                    max="100"
+                    required
+                />
+                <h4>What destination do you like most?</h4>
+                <select name="places" id="place-select" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Paris">Paris</option>
+                    <option value="London">London</option>
+                    <option value="Athens">Athens</option>
+                    <option value="Rome">Rome</option>
+                </select>
+                <h4>Have you been on vacation this year?</h4>
+                <div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="vacation"
+                            id="yes"
+                            value="yes"
+                        />
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="vacation"
+                            id="no"
+                            value="no"
+                        />
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <h4>What food do you like?</h4>
+                <div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            id="soup"
+                            name="food"
+                            value="soup"
+                        />
+                        <label for="soup">Soup</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            id="salad"
+                            name="food"
+                            value="salad"
+                        />
+                        <label for="salad">Salad</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            id="pizza"
+                            name="food"
+                            value="pizza"
+                        />
+                        <label for="pizza">Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fish" name="food" value="fish" />
+                        <label for="fish">Fish</label>
+                    </div>
+                </div>
+                <br />
+                <button class="btn btn-form" type="submit">Submit</button>
+            </form>
+            <h4 class="message"></h4>
+            <img src="" alt="">
+        </div>
+    </body>
+</html>
